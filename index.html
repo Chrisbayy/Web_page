@@ -7,18 +7,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Recomendador de Smartphones</h1>
-    <div class="select-container">
-        <label for="gama">Selecciona la gama: </label>
-        <select id="gama">
-            <option value="baja">Baja</option>
-            <option value="media">Media</option>
-            <option value="alta">Alta</option>
-        </select>
-        <button onclick="recomendar()">Recomendar</button>
-    </div>   
+    <!-- Barra de navegación -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/logo2.png" alt="Logo de la empresa" style="height: 55px;">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Recomendación</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Noticias</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+    
 
-    <div id="resultado"></div>
+    <!-- Contenedor principal -->
+    <div class="container">
+        <h1>Recomendador de Smartphones</h1>
+        
+        <!-- Sección de recomendaciones -->
+        <div id="recomendaciones" class="select-container">
+            <label for="gama">Selecciona la gama: </label>
+            <select id="gama">
+                <option value="baja">Baja</option>
+                <option value="media">Media</option>
+                <option value="alta">Alta</option>
+            </select>
+            <button onclick="recomendar()">Recomendar</button>
+        </div>
+
+        <div id="resultado"></div>
+    </div>
 
     <script src="script.js"></script>
 </body>
