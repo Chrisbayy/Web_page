@@ -2,6 +2,18 @@
 
 Este proyecto es un recomendador de smartphones que muestra sugerencias basadas en la gama seleccionada (baja, media, alta). Los datos de los smartphones se cargan desde un archivo JSON y se muestran en tarjetas con su nombre y foto.
 
+## Índice
+
+1. [Tecnologías Utilizadas](#tecnologías-utilizadas)
+2. [Cómo Funciona](#cómo-funciona)
+3. [Estructura del Proyecto](#estructura-del-proyecto)
+4. [Descripción de los Archivos](#descripción-de-los-archivos)
+    1. [1. `index.html`](#1-indexhtml)
+    2. [2. `style.css`](#2-stylecss)
+    3. [3. `script.js`](#3-scriptjs)
+5. [Cómo Ejecutar el Proyecto](#cómo-ejecutar-el-proyecto)
+6. [Futuras Mejoras](#futuras-mejoras)
+
 ## Tecnologías Utilizadas
 
 - **HTML5**: Para la estructura básica del sitio web.
@@ -9,7 +21,6 @@ Este proyecto es un recomendador de smartphones que muestra sugerencias basadas 
 - **JavaScript**: Para la interactividad y la lógica del recomendador.
 - **Fetch API**: Para cargar los datos desde un archivo JSON.
 - **Markdown**: Para documentar el proyecto.
-
 
 ## Cómo Funciona
 
@@ -74,15 +85,14 @@ Este archivo contiene la lógica del recomendador de smartphones, que se encarga
 
 1. Clona o descarga el repositorio en tu computadora.
 2. Asegúrate de tener los archivos `index.html`, `style.css`, `script.js`, y `data.json` en el mismo directorio.
-3. Crea un servidor local con python. Se debe ejecutar en la terminal el siguiente comando: `python -m http.server`
-4. Dirigite a tu navegador y escribe http://localhost:8000.
+3. Crea un servidor local con python. Se debe ejecutar en la terminal el siguiente comando: `python -m http.server`.
+4. Dirígete a tu navegador y escribe `http://localhost:8000`.
 
 ## Futuras Mejoras
 
 - Añadir más filtros de búsqueda como precio, marca, etc.
 - Mejorar la interacción con el usuario mediante la adición de animaciones.
 - Añadir más cantidad de smartphones.
-- Añadir la opcion de valoraciones de usuarios
-- Añadir la página de blogs
-- Añadir la página de noticias
-
+- Añadir la opción de valoraciones de usuarios.
+- Añadir la página de blogs.
+- Añadir la página de noticias.
