@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa; /* Color de fondo suave */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;  /* Alinea verticalmente */
+    gap: 10px;  /* Espacio entre elementos */
+    margin-top: 20px;
+}
+
+select, button {
+    margin: 10px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Contenedor para los resultados */
+#resultado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;  /* Espacio entre tarjetas */
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Tarjetas de los smartphones */
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    width: 220px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de agrandar al pasar el mouse */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+}
